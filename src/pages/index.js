@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
 
-export default function index() {
+const IndexPage = () => {
   return (
     <main>
       <Layout pageTitle="Home Page">
@@ -14,4 +14,6 @@ export default function index() {
       </Layout>
     </main>
   );
-}
+};
+
+export default IndexPage;

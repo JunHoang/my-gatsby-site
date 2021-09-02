@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 
-export default function about() {
+const AboutPage = () => {
   return (
     <main>
       <Layout pageTitle="About Me">
@@ -12,4 +12,5 @@ export default function about() {
       </Layout>
     </main>
   );
-}
+};
+export default AboutPage;
